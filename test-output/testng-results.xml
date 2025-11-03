@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-03T23:00:19 IST" name="Suite" finished-at="2025-11-03T23:00:57 IST" duration-ms="38059">
+    <groups>
+    </groups>
+    <test started-at="2025-11-03T23:00:19 IST" name="Test" finished-at="2025-11-03T23:00:57 IST" duration-ms="38059">
+      <class name="testCases.ErrorTestScenarios_LoginPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.ErrorTestScenarios_LoginPage@68c9133c]" started-at="2025-11-03T23:00:20 IST" name="setup" finished-at="2025-11-03T23:00:47 IST" duration-ms="27685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:testCases.ErrorTestScenarios_LoginPage@68c9133c]" started-at="2025-11-03T23:00:47 IST" name="initPageObjects" finished-at="2025-11-03T23:00:47 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="loginWithLockedUser(java.lang.String,java.lang.String)[pri:0, instance:testCases.ErrorTestScenarios_LoginPage@68c9133c]" started-at="2025-11-03T23:00:47 IST" name="loginWithLockedUser" finished-at="2025-11-03T23:00:48 IST" duration-ms="609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithLockedUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.ErrorTestScenarios_LoginPage@68c9133c]" started-at="2025-11-03T23:00:48 IST" name="closeBrowser" finished-at="2025-11-03T23:00:49 IST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.ErrorTestScenarios_LoginPage -->
+      <class name="testCases.LoginLogoutEndToEnd_TestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginLogoutEndToEnd_TestCases@33bc72d1]" started-at="2025-11-03T23:00:49 IST" name="setup" finished-at="2025-11-03T23:00:56 IST" duration-ms="6423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:testCases.LoginLogoutEndToEnd_TestCases@33bc72d1]" started-at="2025-11-03T23:00:56 IST" name="initPageObjects" finished-at="2025-11-03T23:00:56 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginLogoutEndToEnd_TestCases@33bc72d1]" started-at="2025-11-03T23:00:56 IST" name="loginToApplication" data-provider="active-user-credentials" finished-at="2025-11-03T23:00:56 IST" duration-ms="331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyProductPageTitle()[pri:1, instance:testCases.LoginLogoutEndToEnd_TestCases@33bc72d1]" started-at="2025-11-03T23:00:56 IST" name="verifyProductPageTitle" finished-at="2025-11-03T23:00:56 IST" depends-on-methods="testCases.LoginLogoutEndToEnd_TestCases.loginToApplication" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPageTitle -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:testCases.LoginLogoutEndToEnd_TestCases@33bc72d1]" started-at="2025-11-03T23:00:56 IST" name="initPageObjects" finished-at="2025-11-03T23:00:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:testCases.LoginLogoutEndToEnd_TestCases@33bc72d1]" started-at="2025-11-03T23:00:56 IST" name="initPageObjects" finished-at="2025-11-03T23:00:56 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="verifyDowndownValuesOfSortOnProductsPage()[pri:2, instance:testCases.LoginLogoutEndToEnd_TestCases@33bc72d1]" started-at="2025-11-03T23:00:56 IST" name="verifyDowndownValuesOfSortOnProductsPage" finished-at="2025-11-03T23:00:56 IST" depends-on-methods="testCases.LoginLogoutEndToEnd_TestCases.loginToApplication" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDowndownValuesOfSortOnProductsPage -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:testCases.LoginLogoutEndToEnd_TestCases@33bc72d1]" started-at="2025-11-03T23:00:56 IST" name="initPageObjects" finished-at="2025-11-03T23:00:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="selectDowndownValues()[pri:3, instance:testCases.LoginLogoutEndToEnd_TestCases@33bc72d1]" started-at="2025-11-03T23:00:56 IST" name="selectDowndownValues" finished-at="2025-11-03T23:00:56 IST" depends-on-methods="testCases.LoginLogoutEndToEnd_TestCases.verifyDowndownValuesOfSortOnProductsPage" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDowndownValues -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:testCases.LoginLogoutEndToEnd_TestCases@33bc72d1]" started-at="2025-11-03T23:00:56 IST" name="initPageObjects" finished-at="2025-11-03T23:00:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="logoutFromoApplication()[pri:4, instance:testCases.LoginLogoutEndToEnd_TestCases@33bc72d1]" started-at="2025-11-03T23:00:56 IST" name="logoutFromoApplication" finished-at="2025-11-03T23:00:56 IST" depends-on-methods="testCases.LoginLogoutEndToEnd_TestCases.loginToApplication" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromoApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.LoginLogoutEndToEnd_TestCases@33bc72d1]" started-at="2025-11-03T23:00:56 IST" name="closeBrowser" finished-at="2025-11-03T23:00:57 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.LoginLogoutEndToEnd_TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
